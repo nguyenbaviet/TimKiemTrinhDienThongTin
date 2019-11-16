@@ -2,6 +2,7 @@ from urllib.request import urlopen
 import urllib.parse as parse
 import simplejson
 from tokenization.sent_tokenizer import word_tokenizer
+import argparse
 
 BASE_LINK = 'http://localhost:8983/solr/test/select?q='
 
@@ -24,3 +25,5 @@ def excuteQuery(query):
     con = get_conn(final_link)
     data = simplejson.load(con)
     print(data['response']['numFound'])
+
+excuteQuery("Việt Nam")
