@@ -1,18 +1,20 @@
 
-#Solr
+<b>Solr</b>
+</br>
 
-###To run:
+<b>To run:</b>
+</br>
 
 python main.py
 
-##Description: 
-Tách từ tiếng Việt nên các từ được nối với nhau bằng dấu _. Khi đổ ra web phải sử lý thêm.
+<b>Description: </b></br>
+Tách từ tiếng Việt nên các từ được nối với nhau bằng dấu _. Khi đổ ra web phải xử lý thêm.
 
-###data for solr: 
+<b>data for solr: </b></br>
 
 final.json
 
-###stop_words:
+<b>stop_words:</b></br>
 
 stopwords.txt
 
